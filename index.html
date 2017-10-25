@@ -8,12 +8,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
     <script src="index.js"></script>
 </head>
 <body>
-  <div class="container">
-    <h1 class="text-center">Local Weather</h1>
+  <div class="container text-center">
+    <h1>Local Weather</h1>
+    <div class="row">
+      <div class="col-xs-6 col-sm-4">
+        <h4>LOCATION</h4>
+        <div id="location"></div>
+      </div>
+      <div class="col-xs-6 col-sm-4">
+        <h4>TEMPERATURE</h4>
+        <div id="temp"></div>
+          <span id="maxTemp">
+            <h5>MAX.</h5>
+          </span>
+          <span id="minTemp">
+            <h5>MIN.</h5>
+          </span>
+      </div>
+      <div class="col-xs-6 col-sm-4">
+        <h4>SYMBOL</h4>
+        <div class="symbol"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <input class="btn btn-default" type="button" name="farToCelc" id="farToCelc" value="CONVERT (F/C)">
+      </div>
+    </div>
   </div>
 </body>
 </html>

@@ -1,5 +1,30 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700');
+
+*, body {
   padding: 0;
   margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
 
+h1 {
+  font-size: 3.2em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+h4, h5 {
+  font-weight: 600;
+}
+
+#temp {
+  padding-bottom: 2em;
+}
+
+span {
+  display: inline-block;
+  padding: 5px;
+}
+
+#farToCelc {
+  margin-top: 40px;
 }
