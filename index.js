@@ -52,7 +52,7 @@ navigator.geolocation.getCurrentPosition(function (position) {
     console.log('Request failed', error);
   });
 
-  var button = document.getElementById("cToF");
+  var button = document.getElementById("tempToggle");
   button.addEventListener("click", convert, false);
 
 });
