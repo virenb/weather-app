@@ -7,12 +7,11 @@
     <title>Local Weather</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="index.js"></script>
 </head>
 <body>
   <div class="container text-center">
-    <h1>Local Weather</h1>
+    <h1>Your Local Weather</h1>
     <div class="row">
       <div class="col-xs-6 col-sm-4">
         <h4>LOCATION</h4>
@@ -37,7 +36,8 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <input class="btn btn-default" type="button" id="cToF" value="CONVERT (C/F)">
+        <input class="btn btn-default" type="button" id="tempToggle" value="CONVERT (C/F)">
+        <div class="msg">Please allow location access in order to see weather.</div>
       </div>
     </div>
   </div>
