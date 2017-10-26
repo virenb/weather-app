@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Dosis', sans-serif;
+  background-color: rgb(206, 206, 206);
 }
 
 h1 {
@@ -16,6 +17,14 @@ h4, h5 {
   font-weight: 600;
 }
 
+h5 {
+  font-size: 1.1em;
+}
+
+#temp, #location {
+  font-size: 1.2em;
+}
+
 #temp {
   padding-bottom: 2em;
 }
@@ -25,6 +34,8 @@ span {
   padding: 5px;
 }
 
-#farToCelc {
+#cToF {
   margin-top: 40px;
+  font-weight: 700;
+  border-width: 2px;
 }
